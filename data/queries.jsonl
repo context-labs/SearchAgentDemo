@@ -1,0 +1,50 @@
+{"id":"q001","category":"current_policy","query":"What are the most recent federal rules in the United States about airline junk fees, and what changed for consumers?"}
+{"id":"q002","category":"current_policy","query":"How does the latest SEC climate disclosure rule status compare with the original proposal, and what should a public company know today?"}
+{"id":"q003","category":"health","query":"What does the CDC currently recommend for adult COVID vaccination, and how does that differ for older adults?"}
+{"id":"q004","category":"health","query":"What recent evidence shows whether GLP-1 medications reduce cardiovascular risk in people without diabetes?"}
+{"id":"q005","category":"science","query":"What were the latest reported results from NASA's OSIRIS-REx asteroid sample analysis?"}
+{"id":"q006","category":"science","query":"What is the current state of room-temperature superconductor claims after LK-99?"}
+{"id":"q007","category":"technology","query":"What changed in the latest Python release that would matter to backend service developers?"}
+{"id":"q008","category":"technology","query":"How does current support for passkeys compare across Apple, Google, and Microsoft accounts?"}
+{"id":"q009","category":"market","query":"What are the latest trends in US electric vehicle sales, and which automakers are gaining share?"}
+{"id":"q010","category":"market","query":"What recent evidence exists that AI coding tools improve or reduce software developer productivity?"}
+{"id":"q011","category":"company","query":"What has OpenAI recently announced about model safety evaluations and preparedness?"}
+{"id":"q012","category":"company","query":"What is the latest public information about Anthropic's enterprise product strategy?"}
+{"id":"q013","category":"energy","query":"What are the latest US grid interconnection queue bottlenecks for renewable energy projects?"}
+{"id":"q014","category":"energy","query":"How have battery storage costs changed recently, and what sources support the trend?"}
+{"id":"q015","category":"finance","query":"What recent changes have US banks made to savings account rates, and why?"}
+{"id":"q016","category":"finance","query":"What is the current debate around spot Ethereum ETFs and staking?"}
+{"id":"q017","category":"education","query":"What are recent findings on learning loss recovery in US public schools?"}
+{"id":"q018","category":"education","query":"How are universities changing computer science curricula because of generative AI?"}
+{"id":"q019","category":"law","query":"What is the current legal status of noncompete agreements in the United States?"}
+{"id":"q020","category":"law","query":"What recent court decisions affect fair use and AI model training?"}
+{"id":"q021","category":"environment","query":"What are the latest measurements of global sea surface temperature anomalies?"}
+{"id":"q022","category":"environment","query":"What does recent research say about methane emissions from oil and gas operations?"}
+{"id":"q023","category":"transportation","query":"What is the current status of high-speed rail projects in California and Texas?"}
+{"id":"q024","category":"transportation","query":"What are recent safety findings about autonomous vehicle deployments in US cities?"}
+{"id":"q025","category":"security","query":"What are the latest CISA recommendations for defending against ransomware?"}
+{"id":"q026","category":"security","query":"What recent supply-chain software attacks illustrate common prevention recommendations?"}
+{"id":"q027","category":"consumer","query":"Which current smartphone repairability policies matter most for US consumers?"}
+{"id":"q028","category":"consumer","query":"What recent evidence exists about dynamic pricing in grocery or restaurant delivery apps?"}
+{"id":"q029","category":"labor","query":"What are recent trends in US union election petitions and success rates?"}
+{"id":"q030","category":"labor","query":"How are companies currently using AI for hiring, and what risks have regulators identified?"}
+{"id":"q031","category":"media","query":"What are the latest changes major news publishers made to licensing content for AI training?"}
+{"id":"q032","category":"media","query":"How are streaming services changing password-sharing enforcement and pricing?"}
+{"id":"q033","category":"housing","query":"What is the current evidence on office-to-residential conversions in major US cities?"}
+{"id":"q034","category":"housing","query":"What recent policies are cities using to increase housing supply near transit?"}
+{"id":"q035","category":"agriculture","query":"What are recent developments in drought-resistant crop research and commercial adoption?"}
+{"id":"q036","category":"agriculture","query":"How are precision agriculture tools changing fertilizer use, according to recent sources?"}
+{"id":"q037","category":"sports","query":"What are recent changes to NCAA athlete compensation rules and enforcement?"}
+{"id":"q038","category":"sports","query":"How are professional leagues currently using player tracking data for injury prevention?"}
+{"id":"q039","category":"travel","query":"What current travel advisories should a US traveler consider before visiting Japan?"}
+{"id":"q040","category":"travel","query":"What recent changes affect airline loyalty program status qualification in the United States?"}
+{"id":"q041","category":"public_data","query":"What does the latest US Census data show about domestic migration between states?"}
+{"id":"q042","category":"public_data","query":"How does recent public data compare inflation in groceries, rent, and gasoline?"}
+{"id":"q043","category":"biotech","query":"What recent CRISPR therapies have received regulatory approval, and for which diseases?"}
+{"id":"q044","category":"biotech","query":"What is the current state of xenotransplantation trials and safety concerns?"}
+{"id":"q045","category":"space","query":"What is the latest status of NASA's Artemis program schedule and major risks?"}
+{"id":"q046","category":"space","query":"How do recent Starship test flight outcomes compare with SpaceX's stated milestones?"}
+{"id":"q047","category":"local_government","query":"What recent policies are US cities using to reduce pedestrian deaths?"}
+{"id":"q048","category":"local_government","query":"How are public libraries currently handling ebook licensing costs?"}
+{"id":"q049","category":"evaluations","query":"What recent benchmark results compare small language models for tool use?"}
+{"id":"q050","category":"evaluations","query":"What are common failure modes reported in recent agent benchmark papers?"}
