@@ -9,3 +9,6 @@ build/
 *.egg-info/
 traces/
 scratchpads/
+
+# Unzipped trace dataset (the .gz is committed; the expanded ~200MB file is not)
+data/search-agent-demo-traces.jsonl

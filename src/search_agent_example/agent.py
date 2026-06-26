@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from agents import Agent, Runner
-from agents.extensions.models.litellm_model import LitellmModel
+from agents import Agent, Runner, set_default_openai_api, set_default_openai_client
+from openai import AsyncOpenAI
 
 from search_agent_example.config import Settings
 from search_agent_example.models import Scratchpad
@@ -39,6 +39,27 @@ Known rough edges for HALO:
 """.strip()
 
 
+_model_provider_configured = False
+
+
+def _configure_model_provider(settings: Settings) -> None:
+    """Point the Agents SDK's default OpenAI client at Inference's OpenAI-compatible
+    endpoint (api.inference.net by default), using the single INFERENCE_API_KEY. To
+    use a different OpenAI-compatible provider, override INFERENCE_BASE_URL and
+    INFERENCE_API_KEY. Idempotent."""
+    global _model_provider_configured
+    if _model_provider_configured:
+        return
+    set_default_openai_client(
+        AsyncOpenAI(
+            api_key=settings.inference_api_key,
+            base_url=settings.inference_base_url,
+        )
+    )
+    set_default_openai_api("chat_completions")
+    _model_provider_configured = True
+
+
 def build_agent(
     settings: Settings,
     search_client: SearchClient | None = None,
@@ -46,6 +67,8 @@ def build_agent(
     session_id: str | None = None,
     user_id: str | None = None,
 ) -> tuple[Agent, Scratchpad]:
+    _configure_model_provider(settings)
+
     scratchpad = Scratchpad()
     if search_client is None:
         if not settings.tavily_api_key:
@@ -68,11 +91,7 @@ def build_agent(
     agent = Agent(
         name="TraceableSearchAgent",
         instructions=AGENT_INSTRUCTIONS,
-        model=LitellmModel(
-            model=settings.litellm_model_id,
-            api_key=settings.litellm_api_key,
-            base_url=settings.litellm_base_url,
-        ),
+        model=settings.model_id,
         tools=tools,
     )
     return agent, scratchpad

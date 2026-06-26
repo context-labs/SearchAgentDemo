@@ -8,7 +8,8 @@ license = { text = "MIT" }
 authors = [{ name = "Inference.net" }]
 dependencies = [
     "inference-catalyst-tracing[openai-agents]>=0.1.0",
-    "openai-agents[litellm]>=0.6.0",
+    "openai-agents>=0.6.0",
+    "openai>=1.40.0",
     "python-dotenv>=1.0.1",
     "rich>=13.7.1",
     "tavily-python>=0.7.0",
